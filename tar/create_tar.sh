@@ -5,10 +5,10 @@
 #
 #  create_tar.sh - Create the tar file for installation
 # ------------------------------------------------------------------------------
-#  Puche 2021        pi.alert.application@gmail.com        GNU GPLv3
+#  Puche 2021        schmidt@linux.com        GNU GPLv3
 # ------------------------------------------------------------------------------
 
-PIALERT_DEV_PATH=/media/WD_4TB/dev
+PIALERT_DEV_PATH=/home/david/workdir/Pi.Alert/
 cd $PIALERT_DEV_PATH
 pwd
 PIALERT_VERSION=`awk '$1=="VERSION" { print $3 }' pialert/config/version.conf | tr -d \'`

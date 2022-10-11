@@ -337,4 +337,4 @@ block is not necessary
   [Read more here](../LICENSE.txt)
 
 ### Contact
-  pi.alert.application@gmail.com
+  schmidt@linux.com

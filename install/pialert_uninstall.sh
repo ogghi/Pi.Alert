@@ -5,7 +5,7 @@
 #
 #  pialert_uninstall.sh - Uninstallation script
 # ------------------------------------------------------------------------------
-#  Puche 2021        pi.alert.application@gmail.com        GNU GPLv3
+#  Puche 2021        schmidt@linux.com        GNU GPLv3
 # ------------------------------------------------------------------------------
 
 # ------------------------------------------------------------------------------
@@ -56,7 +56,7 @@ main() {
   
   # Uninstall crontab jobs
   print_header "Removing crontab jobs"
-  crontab -l 2>/dev/null | sed '/pialert.py/d' | sed ':a;N;$!ba;s/#-------------------------------------------------------------------------------\n#  Pi.Alert\n#  Open Source Network Guard \/ WIFI & LAN intrusion detector \n#\n#  pialert.cron - Back module. Crontab jobs\n#-------------------------------------------------------------------------------\n#  Puche 2021        pi.alert.application@gmail.com        GNU GPLv3\n#-------------------------------------------------------------------------------//g' | crontab -
+  crontab -l 2>/dev/null | sed '/pialert.py/d' | sed ':a;N;$!ba;s/#-------------------------------------------------------------------------------\n#  Pi.Alert\n#  Open Source Network Guard \/ WIFI & LAN intrusion detector \n#\n#  pialert.cron - Back module. Crontab jobs\n#-------------------------------------------------------------------------------\n#  Puche 2021        schmidt@linux.com        GNU GPLv3\n#-------------------------------------------------------------------------------//g' | crontab -
 
   # final message
   print_header "Uninstallation process finished"

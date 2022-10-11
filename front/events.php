@@ -4,7 +4,7 @@
 #
 #  events.php - Front module. Events page
 #-------------------------------------------------------------------------------
-#  Puche 2021        pi.alert.application@gmail.com        GNU GPLv3
+#  Puche 2021        schmidt@linux.com        GNU GPLv3
 #--------------------------------------------------------------------------- -->
 
 <?php

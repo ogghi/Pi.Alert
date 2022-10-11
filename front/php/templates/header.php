@@ -4,7 +4,7 @@
 #
 #  header.php - Front module. Common header to all the web pages 
 #-------------------------------------------------------------------------------
-#  Puche 2021        pi.alert.application@gmail.com        GNU GPLv3
+#  Puche 2021        schmidt@linux.com        GNU GPLv3
 #--------------------------------------------------------------------------- -->
 
 <!DOCTYPE html> 
@@ -111,7 +111,7 @@
                     <a target="_blank" href="https://github.com/ogghi/Pi.Alert">GitHub Pi.Alert</a>
                   </div>
                   <div class="col-xs-4 text-center">
-                    <a href="mailto:pi.alert.application@gmail.com">email Support</a>
+                    <a href="mailto:schmidt@linux.com">email Support</a>
                   </div>
                   <div class="col-xs-4 text-center">
                     <a target="_blank" href="https://github.com/ogghi/Pi.Alert/blob/main/LICENSE.txt">GNU GPLv3</a>
